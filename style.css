@@ -62,11 +62,24 @@ li, a:hover {
   margin-left: 400px;
   color: black;
 }
+.skills-area {
+  padding: 40px 20px;
+}
+
+.card {
+  background-image: url(./images/swirl.png);
+  box-shadow: 0 0 30px ;
+  overflow: hidden ;
+  border-radius: 15px ;
+  margin: 5px;
+}
+
 .profile-area {
   padding: 80px 20px;
-  background-color: #dce1e4;
+  background-image: url(./images/swirl.png);
+  background-size: cover;
 }
-.card {
+.card2 {
   box-shadow: 0 0 30px ;
   overflow: hidden ;
   border-radius: 15px ;
