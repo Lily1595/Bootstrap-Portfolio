@@ -21,6 +21,8 @@ body {
 
 .nav-link {
   font-size:x-large;
+  text-align: center;
+  width: 150px;
   background-color: #8ccbc8;
   border-radius: 20px;
 }
