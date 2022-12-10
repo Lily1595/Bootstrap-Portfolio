@@ -8,7 +8,8 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background-color: rgb(13, 83, 60);
+  background-image: url(./images/swirl.png);
+  background-size: cover;
   min-width: min-content;
 }
 
@@ -18,11 +19,9 @@ header {
   align-items: center;
   padding: 30px 10%;
   margin-bottom: 5px;
-  background-color: rgb(13, 83, 60);
-
 }
 h1 {
-  color: rgb(248, 243, 243);
+  color: rgb(0, 0, 0);
   margin-right: auto;
 }
 .navlinks {
@@ -35,11 +34,11 @@ ul{
 li, a {
   font-weight: 50px;
   font-size: 20px;
-  color: rgb(244, 249, 249);
+  color: rgb(0, 0, 0);
   text-decoration: underline
 }
 li, a:hover {
-  color: #22708d;
+  color: #00b9fc;
 }
 .navlinks li {
   display: inline-block;
@@ -47,23 +46,28 @@ li, a:hover {
 }
 .jumbotron {
   display: flex;
-  background-image: url(./images/banner\ image.png);
+  background-image: url(./images/banner4.png);
   background-size: cover;
-  min-height: 500px;
-  align-items: center;
-  justify-content:flex-start;
+  min-height: 550px;
   padding: 30px 10%;
-}
-.h1 {
-  margin-left: 50px;
-}
+  box-shadow: 0 0 30px;
+} 
 .jumbotext{
   font-size: 60px;
-  margin-left: 400px;
   color: black;
 }
 .skills-area {
   padding: 40px 20px;
+}
+.display-2 {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.lead {
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 30px;
 }
 
 .card {
@@ -75,22 +79,17 @@ li, a:hover {
 }
 
 .profile-area {
-  padding: 80px 20px;
-  background-image: url(./images/swirl.png);
-  background-size: cover;
+  padding: 40px 20px;
 }
 .card2 {
   box-shadow: 0 0 30px ;
   overflow: hidden ;
   border-radius: 15px ;
-  background-color: rgb(93, 93, 93);
+  background-image: url(./images/swirl.png);
   margin: 5px;
 }
 .card-img-top {
-  border-top-right-radius: 40px;
-  border-top-left-radius: 40px;
-  border-bottom-right-radius: 40px;
-  border-bottom-left-radius: 40px;
+  border-radius: 40px;
   padding: 20px;
 }
 
@@ -99,7 +98,7 @@ li, a:hover {
  text-align: center;
  color: white;
 }
-.main-text h2{
+.main-text h3{
   display: inline-block;
   text-transform: uppercase;
   font-size: x-large;
@@ -111,4 +110,5 @@ li, a:hover {
 }
 .main-text p{
   margin: 20px;
+  color: black;
 }
