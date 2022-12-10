@@ -99,14 +99,7 @@ body {
  color: white;
 }
 .main-text h3{
-  display: inline-block;
-  text-transform: uppercase;
-  font-size: x-large;
-  text-decoration: solid;
   color: rgb(0, 0, 0);
-  background-color: rgb(24, 141, 102);
-  padding: 10px;
-  border-radius: 20px;
 }
 .main-text p{
   margin: 20px;
