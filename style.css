@@ -19,10 +19,17 @@ body {
   margin-top: 30px;
 }
 
+.nav-link {
+  font-size:x-large;
+  background-color: #8ccbc8;
+  border-radius: 20px;
+}
+
 .nav-link:hover {
   font-weight: 600;
   border-bottom: 1px solid black;
   margin-bottom: -1px;
+  background-color: #60a3a0;
 }
 
 .jumbotron{
@@ -50,6 +57,7 @@ body {
 .display-2 {
   padding: 10px;
   border-radius: 10px;
+  text-decoration: underline;
 }
 
 .lead {
@@ -60,6 +68,7 @@ body {
 
 .card {
   background-image: url(./images/swirl.png);
+  background-size: cover;
   box-shadow: 0 0 30px ;
   overflow: hidden ;
   border-radius: 15px ;
@@ -74,6 +83,7 @@ body {
   overflow: hidden ;
   border-radius: 15px ;
   background-image: url(./images/swirl.png);
+  background-size: cover;
   margin: 5px;
 }
 .card-img-top {
