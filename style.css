@@ -13,49 +13,37 @@ body {
   min-width: min-content;
 }
 
-header {
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  padding: 30px 10%;
-  margin-bottom: 5px;
-}
-h1 {
+.navbar-nav a {
   color: rgb(0, 0, 0);
-  margin-right: auto;
+  margin: 0 20px ;
+  margin-top: 30px;
 }
-.navlinks {
-  list-style: none;
-  justify-content: flex-end;
+
+.nav-link:hover {
+  font-weight: 600;
+  border-bottom: 1px solid black;
+  margin-bottom: -1px;
 }
-ul{
-	list-style: none;
-}
-li, a {
-  font-weight: 50px;
-  font-size: 20px;
-  color: rgb(0, 0, 0);
-  text-decoration: underline
-}
-li, a:hover {
-  color: #00b9fc;
-}
-.navlinks li {
-  display: inline-block;
-  padding: 0px 10px;
-}
-.jumbotron {
-  display: flex;
-  background-image: url(./images/banner4.png);
+
+.jumbotron{
+  background-image: url(./images/swirl.png);
   background-size: cover;
-  min-height: 550px;
-  padding: 30px 10%;
+  background-position: center;
   box-shadow: 0 0 30px;
-} 
-.jumbotext{
-  font-size: 60px;
-  color: black;
 }
+
+.intro {
+  padding-top: 50px;
+}
+.intro img {
+  width: 400px;
+}
+.jumbotron h1 {
+  margin: 30px 0;
+  font-size: 30px;
+  line-height: 1.5;
+}
+
 .skills-area {
   padding: 40px 20px;
 }
