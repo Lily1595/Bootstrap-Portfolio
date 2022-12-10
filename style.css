@@ -8,7 +8,7 @@ body {
   margin: 0;
   padding: 0;
   line-height: 1.5;
-  background-color: black;
+  background-color: rgb(13, 83, 60);
   min-width: min-content;
 }
 
@@ -18,7 +18,7 @@ header {
   align-items: center;
   padding: 30px 10%;
   margin-bottom: 5px;
-  background-color: #2e6c49;
+  background-color: rgb(13, 83, 60);
 
 }
 h1 {
@@ -87,8 +87,15 @@ li, a:hover {
  color: white;
 }
 .main-text h2{
+  display: inline-block;
   text-transform: uppercase;
   font-size: x-large;
   text-decoration: solid;
-  color: white;
+  color: rgb(0, 0, 0);
+  background-color: rgb(24, 141, 102);
+  padding: 10px;
+  border-radius: 20px;
+}
+.main-text p{
+  margin: 20px;
 }
