@@ -77,6 +77,33 @@ body {
   margin: 5px;
 }
 
+.skillscard {
+  background-image: url(./images/swirl.png);
+  background-size: cover;
+  box-shadow: 0 0 30px ;
+  overflow: hidden ;
+  border-radius: 15px ;
+  margin: 15px 50px;
+  display: flex;
+  justify-items: center;
+  flex-direction: column;
+}
+
+.card-header {
+  background-color: #8ccbc8;
+}
+
+.skillset {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.skillset img {
+  width: 100px;
+}
+
 .profile-area {
   padding: 40px 20px;
 }
@@ -104,4 +131,15 @@ body {
 .main-text p{
   margin: 20px;
   color: black;
+}
+
+.contactme, .aboutme{
+  background-color: #8ccbc8;
+  margin: 40px;
+  border-radius: 60px;
+  box-shadow: 0 0 30px ;
+}
+
+.footer-social {
+  color: #5a817f;
 }
