@@ -104,9 +104,9 @@ body {
 }
 
 .skillset {
+  padding: 40px 20px;
   display: flex;
   justify-content: space-around;
-  padding: 15px;
 }
 
 .skillset img {
@@ -147,7 +147,7 @@ body {
 /* About me/ contact me area */
 
 .aboutme-area {
-  width: 1440px;
+  padding: 40px 20px;
 }
 
 .contactme, .aboutme{
@@ -157,17 +157,11 @@ body {
   box-shadow: 0 0 30px ;
 }
 
-/* Footer icon */
-
-.grass {
-  width: 1440px;
-  margin: 0 auto;
-}
-
 /* Footer */
 
 footer {
   background-color: #8ccbc8;
+  background-size: cover;
   margin: 0 auto;
 }
 
