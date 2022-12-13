@@ -1,3 +1,5 @@
+/* Overall settings */
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -12,6 +14,8 @@ body {
   background-size: cover;
   min-width: min-content;
 }
+
+/* Nav bar section */
 
 .navbar-nav a {
   color: rgb(0, 0, 0);
@@ -34,6 +38,8 @@ body {
   background-color: #60a3a0;
 }
 
+/* Jumbotron area */
+
 .jumbotron{
   background-image: url(./images/swirl.png);
   background-size: cover;
@@ -52,6 +58,8 @@ body {
   font-size: 30px;
   line-height: 1.5;
 }
+
+/* Skills Area */
 
 .skills-area {
   padding: 40px 20px;
@@ -77,6 +85,8 @@ body {
   margin: 5px;
 }
 
+/* Skills Icon section */
+
 .skillscard {
   background-image: url(./images/swirl.png);
   background-size: cover;
@@ -94,15 +104,16 @@ body {
 }
 
 .skillset {
-  width: fit-content;
   display: flex;
-  align-items: center;
+  justify-content: space-around;
   padding: 15px;
 }
 
 .skillset img {
   width: 100px;
 }
+
+/* Projects/profile area */
 
 .profile-area {
   padding: 40px 20px;
@@ -133,6 +144,12 @@ body {
   color: black;
 }
 
+/* About me/ contact me area */
+
+.aboutme-area {
+  width: 1440px;
+}
+
 .contactme, .aboutme{
   background-color: #8ccbc8;
   margin: 40px;
@@ -140,6 +157,23 @@ body {
   box-shadow: 0 0 30px ;
 }
 
+/* Footer icon */
+
+.grass {
+  width: 1440px;
+  margin: 0 auto;
+}
+
+/* Footer */
+
+footer {
+  background-color: #8ccbc8;
+  margin: 0 auto;
+}
+
 .footer-social {
-  color: #5a817f;
+  color: #9e60a3;
+}
+.footer-social:hover {
+  box-shadow: 20px 20px 50px 10px rgb(215, 158, 255) inset;
 }
